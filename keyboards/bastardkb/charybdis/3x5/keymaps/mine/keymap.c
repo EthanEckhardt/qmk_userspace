@@ -104,15 +104,15 @@ static uint16_t auto_pointer_layer_timer = 0;
 #define LAYOUT_LAYER_MEDIA                                                                    \
     _______________DEAD_HALF_ROW_______________, RGB_TOG, RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, \
     ______________HOME_ROW_GACS_L______________, XXXXXXX, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT, \
-    _______________DEAD_HALF_ROW_______________, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
+    _______________DEAD_HALF_ROW_______________, _______________DEAD_HALF_ROW_______________, \
                       _______, XXXXXXX,  XXXXXXX, KC_MSTP, KC_MPLY
 
 /** \brief Mouse emulation and pointer functions. */
 #define LAYOUT_LAYER_POINTER                                                                  \
-    QK_BOOT,  EE_CLR, XXXXXXX, DPI_MOD, S_D_MOD, S_D_MOD, DPI_MOD, XXXXXXX,  EE_CLR, QK_BOOT, \
-    ______________HOME_ROW_GACS_L______________, ______________HOME_ROW_GACS_R______________, \
-    _______, DRGSCRL, SNIPING, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, SNIPING, DRGSCRL, _______, \
-                      KC_BTN2, KC_BTN1, KC_BTN3, KC_BTN3, KC_BTN1
+    _______________DEAD_HALF_ROW_______________, S_D_MOD, DPI_MOD, KC_BTN2, XXXXXXX, XXXXXXX, \
+    ______________HOME_ROW_GACS_L______________, XXXXXXX, KC_BTN1, KC_BTN3, DRGSCRL, SNIPING, \
+    _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, KC_PGUP, _______, \
+                       KC_ESC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
 
 /**
  * \brief Navigation layer.
