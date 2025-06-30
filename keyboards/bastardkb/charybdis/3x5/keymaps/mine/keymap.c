@@ -109,8 +109,8 @@ static uint16_t auto_pointer_layer_timer = 0;
 
 /** \brief Mouse emulation and pointer functions. */
 #define LAYOUT_LAYER_POINTER                                                                  \
-    _______________DEAD_HALF_ROW_______________, S_D_MOD, DPI_MOD, KC_BTN2, XXXXXXX, XXXXXXX, \
-    ______________HOME_ROW_GACS_L______________, XXXXXXX, KC_BTN1, KC_BTN3, DRGSCRL, SNIPING, \
+    _______________DEAD_HALF_ROW_______________, S_D_MOD, DPI_MOD, KC_BTN3, XXXXXXX, XXXXXXX, \
+    ______________HOME_ROW_GACS_L______________, XXXXXXX, KC_BTN1, KC_BTN2, DRGSCRL, SNIPING, \
     _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, KC_PGUP, _______, \
                        KC_ESC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
 
